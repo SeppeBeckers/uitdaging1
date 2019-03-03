@@ -1,0 +1,9 @@
+/* specifieke stijlregels voor 403-pagina */
+body{
+    background-image: url("/afbeeldingen/error403.png");
+    max-width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}

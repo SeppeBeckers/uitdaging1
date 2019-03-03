@@ -1,0 +1,9 @@
+/* specifieke stijlregels voor 404-pagina */
+body{
+    background-image: url("/afbeeldingen/error404.png");
+    max-width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
