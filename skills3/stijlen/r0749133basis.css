@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: firebrick;
+    color: #000;
+    font-size: 18px;
+}
+
+h1 {
+    background-color: #f13d18;
+    color: #FFFF00;
+    text-align: center;
+}
+
+h2 {
+    background-color: #f13d18;
+    color: #FFFF00;
+}
+
+h2,
+p {
+    padding: 10px 0px;
+}
+
+#image {
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#container {
+    background-color: #f13d18;
+    color: #000;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style-type: none;
+    margin-left: 0px;
+    flex: 1 1 100%;
+    text-align: center;
+    background-color: firebrick;
+    color: #FFFF00;
+}
+
+
+nav a {
+    text-decoration: none;
+    display: block;
+    background-color: firebrick;
+    color: #FFFF00;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 1px;
+}
+
+nav a:hover {
+    background-color: #101010;
+    color: #f5b8d2;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f8f8f8;
+    color: #000;
+}
+
+#primair {
+    display: contents;
+}
+
+#gaming {
+    display: none;
+}
+
+#luxe {
+    display: none;
+}
+
+#image {
+    background-image: url(../afbeeldingen/basis.jpg);
+}
